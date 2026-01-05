@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style/loginWithdifferentway.css">
+</head>
+<body>
+   
+     <div class="container" id="signup">
+        <h1 class="form-title">Register</h1>
+        <form action="" method="post">
+            <div class="input-group">
+                <i class="fas fa-user"></i>
+                <input type="text" name="FristName" placeholder="FristName" id="fname" required>
+                <label for="fname" class="input-label">FristName</label>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-user"></i>
+                <input type="text" name="LastName" placeholder="LastName" id="lname" required>
+                <label for="lname" class="input-label">LastName</label>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-envelope"></i>
+                <input type="email" name="email" placeholder="Email" id="email" required>
+                <label for="email" class="input-label">Email</label>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" name="password" placeholder="Password" id="password" required>
+                <label for="password" class="input-label">Password</label>
+            </div>
+            <input type="submit" class="btn" value="Sign Up" name="signup">
+
+        </form>
+        <p class="or">---------- or -----------</p>
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-google"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+        <div class="links">
+            <p>Already Have Account ?</p>
+            <button id="signInButton">Sign In</button>
+        </div>
+    </div>
+     <div class="container" id="signup">
+        <h1 class="form-title">Sign In</h1>
+        <form action="" method="post">
+    
+            <div class="input-group">
+                <i class="fas fa-envelope"></i>
+                <input type="email" name="email" placeholder="Email" id="email" required>
+                <label for="email" class="input-label">Email</label>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" name="password" placeholder="Password" id="password" required>
+                <label for="password" class="input-label">Password</label>
+            </div>
+            <p class="recover">
+                <a href="#"> Recover Password</a>
+            </p>
+            <input type="submit" class="btn" value="Sign In" name="signin">
+
+        </form>
+        <p class="or">---------- or -----------</p>
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-google"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+        <div class="links">
+            <p>Don't Have Account Yet ?</p>
+            <button id="signUpButton">Sign Up</button>
+        </div>
+    </div>
+    <script src="script/loginWithdifferentway.js">
+
+      </script>
+    </body>
+</html>
