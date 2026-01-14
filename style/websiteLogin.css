@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -119,15 +119,23 @@ margin-left: 40px;
     padding: 40px;
 
 }
+
 .wrapper .form-box.login{
-  display: none;
-
+    display: block;
 }
+
 .wrapper .form-box.register{
- position: absolute;
-transform: translateX(400px);
-
+    display: none;
 }
+
+.wrapper.active .form-box.login{
+    display: none;
+}
+
+.wrapper.active .form-box.register{
+    display: block;
+}
+
 .wrapper .form-box h2{
     color: #162938;
     font-size: 2em;
